@@ -2,15 +2,17 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="index.css">
+        <!-- Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
         <title>The BoredBot</title>
     </head>
     <body>
-        <div id="container" class="container">
+        <main id="container" class="container">
             <h1 id="title" class="title">The BoredBot</h1>
             <p>Press the button to generate an idea:</p>
-            <h2 id="activity-name" class="activity-name"></h2>
-        </div>
-        <button id="generate-activity" class="generate-activity">Generate activity</button>
+            <h2 id="activity-name" class="activity-name" aria-live="polite">Activity will appear here</h2>
+        </main>
+        <button id="generate-activity" class="generate-activity" aria-label="Find a new activity">Generate activity</button>
         <script src="index.js"></script>
     </body>
 </html>
